@@ -1,8 +1,9 @@
+# M-Sand Dashboard Prototype
 
-M-Sand Dashboard Prototype
-==========================
+![Demo Screenshot](static/demo_ui.png)
 
 Contents:
+
 - app.py: Flask application
 - requirements.txt: Python dependencies
 - utils/: helper modules (image processing, PSD, density)
@@ -11,6 +12,7 @@ Contents:
 - database/: SQLite DB (data.db)
 
 Run:
+
 1. Create virtualenv and install dependencies:
    python -m venv venv
    source venv/bin/activate
@@ -24,5 +26,6 @@ Run:
 3. Open http://localhost:5000
 
 Notes:
+
 - The image processing code uses OpenCV and simple heuristics.
 - For production, replace heuristics with trained model and secure endpoints.
